@@ -1,0 +1,201 @@
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home{
+  background-color: rgb(255, 213, 0, 0.51);
+  padding-left: 50px ;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 50px;
+}
+.personal-info{
+  display: block;
+}
+.portfolio{
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  padding-bottom: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 350px;
+}
+.name{
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-right: 500px;
+}
+
+.envelope{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.personal_mail {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: flex;
+  vertical-align: middle;
+}
+.phone{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.personal_phone {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: flex;
+  vertical-align: middle;
+}
+
+/* About */
+
+.about-info{
+  display: flex;
+}
+.man-gif{
+  display: inline-block;
+}
+.man{
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 120px;
+  border-radius: 120px;
+}
+.about-para{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 25px;
+  padding-left: 140px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about-mepara{
+  display: flex;
+  font-size: 20px;
+  margin-right: 60px;
+}
+
+/* Skills */
+
+.skill-page{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.skills-head{
+  margin-left: 40px;
+  margin-top: 50px;
+  display: block;
+  font-size: larger;
+}
+.skills{
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: large;
+  border: 1px solid rgb(223, 207, 31);
+  border-radius: 6px;
+  box-shadow: 0 3px 10px gray;
+  padding: 20px;
+}
+
+/* Projects */
+
+.project-page{
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.projects-head{
+  margin-left: 40px;
+  margin-top: 50px;
+  display: block;
+  font-size: larger;
+}
+.projects{
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: large;
+  padding: 20px;
+}
+.proj-content{
+  display: inline-block;
+  padding-right: 20px;
+  font-size: large;
+}
+.output-pg{
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 25px;
+}
+.output{
+  height: 400px;
+}
+
+.resume{
+  margin-left: 40px;
+  margin-top: 50px;
+  display: block;
+  font-size: larger;
+  padding-left: 550px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  cursor: pointer;
+  font-size: 40px;
+}
+.download-btn{
+  text-decoration: none;
+}
+
+/* Footer */
+
+.foot{
+  background-color: rgb(255, 213, 0, 0.51);
+  padding-left: 50px ;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.other-info{
+  display: block;
+  margin-top: 50px;
+ 
+}
+.other{
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: block;
+  padding-bottom: 10px;
+}
+.link {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.linkedin {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+  font-size: large;
+}
+.git {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.github {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+  font-size: large;
+}
