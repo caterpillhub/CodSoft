@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator - CodSoft Task3#Kavin</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="Calculator">
+    <div class="calc-input">
+      <input type="text" id="userinput" placeholder="0">
+    </div>
+    <div class="keys">
+      <button type="button" class="operation" onclick="Clear()">AC</button>
+      <button type="button" class="operation" onclick="del()">DEL</button>
+      <button type="button" class="operation" onclick="display('%')">%</button>
+      <button type="button" class="operations" onclick="display('/')">/</button>
+      <button type="button" onclick="display('7')">7</button>
+      <button type="button" onclick="display('8')">8</button>
+      <button type="button" onclick="display('9')">9</button>
+      <button type="button" class="operations" onclick="display('*')">*</button>
+      <button type="button" onclick="display('4')">4</button>
+      <button type="button" onclick="display('5')">5</button>
+      <button type="button" onclick="display('6')">6</button>
+      <button type="button" class="operations" onclick="display('-')">-</button>
+      <button type="button" onclick="display('1')">1</button>
+      <button type="button" onclick="display('2')">2</button>
+      <button type="button" onclick="display('3')">3</button>
+      <button type="button" class="operations" onclick="display('+')">+</button>
+      <button type="button" class="zero" onclick="display('0')">0</button>
+      <button type="button" onclick="display('.')">.</button>
+      <button type="button" class="operations" onclick="Calculate()">=</button>
+    </div>
+  </div>
+
+  <script>
+    let outputScreen = document.getElementById("userinput")
+
+    function display(num){
+      outputScreen.value += num;
+    }
+    function Calculate(){
+      try{
+        outputScreen.value = eval(outputScreen.value);
+      }
+      catch(err)
+      {
+        alert("Invalid")
+      }
+    }
+    function Clear(){
+      outputScreen.value = ""
+    }
+    function del(){
+      outputScreen.value = outputScreen.value.slice(0,-1);
+    }
+  </script>
+</body>
+</html>
